@@ -131,18 +131,7 @@ class _DataSourceSelectionState extends State<DataSourceSelection> {
                   }, icon: Icon(Icons.network_wifi ), label: Text('Flutter Developer Challenge: Local Header + REST GET Venues')),
                 ),
               ),
-              Padding(padding: EdgeInsets.fromLTRB(0, 5, 0, 5)),
-              Container(
-                 width: width(context)-100,
-                  height: 50,
-                child: ElevatedButton.icon(onPressed:  () {
-
-                  navTo(LoadFSData(), context);
-                  // Used to create the firestore records
-                  // for (var item in questions) {
-                  //     FirebaseFirestore.instance.collection('Questions').doc().set(item.toJson());
-                  // }
-                }, icon: Icon(AntIcons.fireTwotone ), label: Text('Flutter Developer Challenge: Firebase'))),
+              
               
             ],
           ),

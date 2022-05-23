@@ -128,7 +128,7 @@ class _DataSourceSelectionState extends State<DataSourceSelection> {
 
                     navTo(CarouselView(headers: headers, data: data), context);
 
-                  }, icon: Icon(AntIcons.databaseOutlined ), label: Text('Flutter Developer Challenge: Local Header + REST GET Venues')),
+                  }, icon: Icon(Icons.network_wifi ), label: Text('Flutter Developer Challenge: Local Header + REST GET Venues')),
                 ),
               ),
               Padding(padding: EdgeInsets.fromLTRB(0, 5, 0, 5)),
